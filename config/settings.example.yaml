@@ -1,0 +1,25 @@
+subreddits:
+  - AskReddit
+  - NoStupidQuestions
+  - CasualConversation
+  - explainlikeimfive
+  - Advice
+
+write_cooldown_seconds: 120
+requests_per_minute: 9
+
+category_tags:
+  advice: "Community Advice"
+  faq: "Frequently Asked Question"
+  discussion: "Discussion"
+
+templates:
+  digest_title: "Weekly Community Digest"
+  archive_title: "Archived Context"
+
+opt_out:
+  commands:
+    - "!optout"
+  content_exclusion_filters:
+    - "nsfw"
+    - "personally identifying"
